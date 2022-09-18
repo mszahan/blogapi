@@ -4,4 +4,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include('posts.urls')),
+    
+    # this url also add log in logout button in right top corner of the api output
+    path('api-auth/', include('rest_framework.urls')), # for including urls of rest_frameworks
 ]
