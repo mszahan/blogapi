@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount', # for all auth 
     'dj_rest_auth', # for rest authentication
     'dj_rest_auth.registration', # for using all auth with the res_auth
+    # 'drf_yasg', # for rest framework documentation
 
     #local
     'posts',
