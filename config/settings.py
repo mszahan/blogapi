@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # third party
     'rest_framework',
     'rest_framework.authtoken', #for genearting the token in server
+    'dj_rest_auth', # for rest authentication
 
     #local
     'posts',
